@@ -59,7 +59,7 @@ public class MinesweeperGame extends Game {
 
     private void win() {
         isGameStopped = true;
-        showMessageDialog(Color.WHITE, "Каталам будет нашим!", Color.BLACK, 24);
+        showMessageDialog(Color.WHITE, "Well Done!", Color.BLACK, 24);
     }
 
     private void gameOver() {
